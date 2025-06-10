@@ -16,6 +16,6 @@ impl Server{
     }
 
     fn run(&mut self) {
-
+        println!("Listening to {}", self.address);
     }
 }
