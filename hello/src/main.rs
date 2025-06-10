@@ -3,7 +3,7 @@
 // fn main() {
 //     println!("{}",is_even(234567890));
 // }
-
+//
 // fn is_even(i:i32) -> bool{
 //     if i%2==0{
 //         return true;
@@ -12,7 +12,6 @@
 // }
 
 // --------------------------------------------------------------------------------------------- //
-//  A `fib` function that calculates the Fibonacci number for a given integer using recursion.
 // fn main(){
 //     let a:i32=10;
 //     let b:i32=20;
@@ -22,6 +21,7 @@
 //     }
 // }
 
+//  A `fib` function that calculates the Fibonacci number for a given integer using recursion.
 // fn fib(num:i32)->i32{
 //     if num<=1 {
 //         return num;
@@ -53,6 +53,7 @@
 //     active: bool,
 // }
 
+// impl means you can attach functions to instances of structs
 // here `self` is the instance of the structure and `&self` is the reference of the instance like `this` in JS
 // impl User {
 //     fn display_all(&self){
