@@ -2,3 +2,8 @@ target
 03-server/server/target
 02-mars-calculaor-cmd/mars_calc/target
 hello/target
+
+
+# Added by cargo
+
+/target
