@@ -31,7 +31,7 @@ impl Server {
                             match res {
                                 Ok(request) => {
                                     println!("Parsed Request: {:?}", request);
-                                    // Here you would handle the request and send a response
+                                    // Here i handle the request and send a response
                                     let response = "HTTP/1.1 200 OK\r\n\r\nHello, World!";
                                     stream.write_all(response.as_bytes()).unwrap();
                                 }

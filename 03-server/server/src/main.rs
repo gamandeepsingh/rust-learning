@@ -6,8 +6,8 @@ mod http;
 mod server;
 
 fn main() {
-    let mut s = Server::new("127.0.0.1:8080".to_string());
-    s.run();
+    let mut server = Server::new("127.0.0.1:8080".to_string());
+    server.run();
 }
 
 impl Request {}
